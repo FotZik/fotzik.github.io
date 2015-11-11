@@ -90,7 +90,7 @@
 
         .page-link {
             display: block;
-            padding: 5px 10px;
+            padding: 5px;
         }
     }
 }
@@ -107,6 +107,9 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    0 0 15px 0 rgba(0, 0, 0, 0.25);
+    box-shadow:         0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-wrapper {
@@ -209,6 +212,7 @@
 
     > li {
         padding-bottom: $spacing-unit;
+
     }
 }
 
@@ -220,6 +224,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
 
@@ -227,10 +232,6 @@
 /**
  * Posts
  */
-.post-header {
-    padding-bottom: $spacing-unit;
-}
-
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
@@ -243,10 +244,10 @@
 }
 
 .post-content {
-    padding-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -255,14 +256,17 @@
 
     h3 {
         font-size: 26px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 
         @include media-query($on-laptop) {
             font-size: 22px;
+
         }
     }
 
     h4 {
         font-size: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 
         @include media-query($on-laptop) {
             font-size: 18px;
