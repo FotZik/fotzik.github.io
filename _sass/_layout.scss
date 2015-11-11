@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    min-height: 35px;
+    min-height: $header-height;
     background-color: $footer-grey;
 
     // Positioning context for the mobile navigation icon
@@ -10,16 +10,12 @@
 }
 
 .site-title {
-    line-height: 45px;
+    line-height: $header-height;
     letter-spacing: -1px;
     padding-left: 20px;
     padding-bottom: 0;
     float: left;
-
-    &,
-    &:hover {
-        color: $text-color;
-    }
+    background-color: $footer-grey;
 }
 
 .site-nav {
@@ -30,7 +26,7 @@
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-    line-height: 45px;
+    line-height: $header-height;
 
     @include media-query($on-laptop) {
       max-width: -webkit-calc(800px - (#{$spacing-unit}));
@@ -46,13 +42,7 @@
     .page-link {
         float: right;
         line-height: 45px;
-        color: $text-color;
         padding-right: 20px;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            padding-left: 20px;
-        }
     }
 
     @include media-query($on-palm) {

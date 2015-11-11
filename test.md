@@ -4,4 +4,4 @@ title: Test
 permalink: /test/
 ---
 
-Test.
+Some information about me.
