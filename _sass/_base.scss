@@ -4,7 +4,6 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
     padding: 0;
 }
 
@@ -32,7 +31,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
 }
 
 
@@ -64,13 +63,13 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    padding-left: $spacing-unit;
 }
 
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+         padding-bottom: 0;
     }
 }
 
@@ -116,7 +115,7 @@ blockquote {
     font-style: italic;
 
     > :last-child {
-        margin-bottom: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -171,7 +170,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -201,4 +199,9 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.padding-top-bot-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
