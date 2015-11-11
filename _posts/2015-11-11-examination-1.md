@@ -16,9 +16,9 @@ we thought about it. Some of the questions also target information brought up du
  * Pros and cons?
 2. What do you think of static site generators?
  * What type of projects are they suitable for?
-3. What is robots.txt and how have you configure it for your site?
-4. What is humans.txt and how have you configure it for your site?
-5. How did you implements comments to blog posts
+3. What is robots.txt and how have you configured it for your site?
+4. What is humans.txt and how have you configured it for your site?
+5. How did you implements comments to blog posts?
 6. What is Open Graph and how do you make use of it?
 
 So here are my answers to the questions above.
@@ -30,11 +30,30 @@ the CSS code.
 ####**What do you think of static site generators?**
 
 
-####**What is robots.txt and how have you configure it for your site?**
-robots.txt is a way to control what search bots can index and cannot index. You can disallow certain folders and files
-from being indexed. You can also limit it to certain types of bots, for example BadBot, Google, etc.
+####**What is robots.txt and how have you configured it for your site?**
+robots.txt is a way to control what search robots can and cannot index. You can disallow certain folders and files
+from being indexed. You can also exclude a single robot if wanted.
 
-I decided for my site to not allow anything since this is more of a private website for me, my fellow students and the
-teachers. I do not want the website to be indexed by search bots.
+{% highlight html %}
+User-agent: *
+Disallow: /
+{% endhighlight %}
+This will make all robots `User-agent: *` not be able to index any files in `/` which is the root, so that would mean
+all files with the above code.
 
+To exclude a single robot swap out * for the robot that you want to exclude. Example `User-agent: Google` will
+exclude Google.
+
+To exclude a file swap out / for the file structure. Example `/junk.html` will exclude the junk.html file.
+
+For this site I decided not to allow any robots to index anything. The reason for this is because I want the blog
+to be private and only open to myself, my fellow students and the teachers.
+
+####**What is humans.txt and how have you configured it for your site?**
+
+
+####**How did you implements comments to blog posts**
+
+
+####**What is Open Graph and how do you make use of it?**
 
