@@ -6,7 +6,7 @@ html, body {
     background-color: $body-color;
 }
 .wrapper {
-    min-height: calc(100% - 230px);
+    min-height: calc(100% - 235px);
     margin: 0 auto -90px; /* the bottom margin is the negative value of the footer's height */
 }
 footer, .push {
