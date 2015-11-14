@@ -19,8 +19,10 @@ When it comes to education I'm a fully certified network technician (Cisco). I'v
 before I decided to go back to school and learn more about coding (I've always wanted to learn programming).
 
 So currently I'm reading the program "Utveckling och Drift av Mjukvarusystem". The goal with the program is to be able
-to work as a programmer and also use the knowledge to help me with some of my own projects.
+to work as a programmer and also use the knowledge to help me with my future live stream project.
 
-One of those projects are live streaming. I'm really interested in live streaming (focused on gaming) and would like
-to develop my own website to help promote my future live stream and youtube content. I haven't really started working 
-on this project yet, the reason being not enough time.
+I'm really interested in live streaming (focused on gaming) and would like to develop my own website to help promote
+my future live stream and whatever youtube content I happen to create as a byproduct.
+ 
+I haven't really started working on this project yet, the reason being having not enough time, hopefully the future
+will give me more time so I can finally start working on it.

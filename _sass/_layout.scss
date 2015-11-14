@@ -4,9 +4,6 @@
 .site-header {
     min-height: $header-height;
     background-color: $footer-grey;
-    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow:    0 0 15px 0 rgba(0, 0, 0, 0.25);
-    box-shadow:         0 0 15px 0 rgba(0, 0, 0, 0.25);
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -115,9 +112,6 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
-    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow:    0 0 15px 0 rgba(0, 0, 0, 0.25);
-    box-shadow:         0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-wrapper {
@@ -201,9 +195,6 @@
 .content-box {
     background-color: #555555;
     border-radius: 15px;
-    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-    -moz-box-shadow:    0 0 15px 0 rgba(0, 0, 0, 0.25);
-    box-shadow:         0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 .page-content {
@@ -284,4 +275,14 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * Live stream
+ */
+
+.box-shadow {
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    0 0 15px 0 rgba(0, 0, 0, 0.25);
+    box-shadow:         0 0 15px 0 rgba(0, 0, 0, 0.25);
 }
