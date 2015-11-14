@@ -6,6 +6,8 @@ permalink: /blog/
 
 <h1 class="post-title">Blog posts</h1>
 
+Here you'll be able to read all blog posts ever posted on the site.
+
 <div class="home">
     
   <ul class="post-list">

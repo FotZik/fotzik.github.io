@@ -4,4 +4,5 @@ title: Live stream
 permalink: /livestream/
 ---
 
-<iframe width="690" height="388" src="http://www.twitch.tv/zikstreaming" frameborder="0" allowfullscreen></iframe>
+<a class="embedly-card" href="http://twitch.tv/zikstreaming">Card</a>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
