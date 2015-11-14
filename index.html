@@ -2,3 +2,24 @@
 layout: index
 ---
 
+<h1 class="post-title">Welcome to Fredrik Jonsson's presentation site for 1dv022.</h1>
+
+<p class="padding-top-bot-20 padding-bot-40">Welcome to Fredrik Jonsson's presentation site for
+    1dv022. 1dv022 is a Client-based Web programming course given by Linnéunniversitetet in Kalmar and Växjö.
+    It's a continuation of 1dv021 An introduction to programming.
+    <br><br>
+    On this site you'll be able to read a little bit about me and my interests. I will also blog throughout
+    the course and all blog posts will be open to comments. Most blogs will tackle my thoughts about what
+    we are learning but there also be some examination blog posts where I answer questions the teachers have
+    asked us.
+</p>
+
+
+<div class="padding-left-right-20 padding-top-bot-20 content-box">
+
+    <h1 class="post-title">Latest blog posts</h1>
+    {% for post in site.posts limit:3  %}
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span class="post-meta">Posted: {{ post.date | date: "%b %-d, %Y" }}</span>
+    {% endfor %}
+</div>

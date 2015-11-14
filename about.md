@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<h1 class="post-title">About me</h1>
+
 My name is Fredrik Jonsson, I'm 29 years old and I currently live in Piteå.
 I have a daughter that's 4 years old (turning 5 2016) which takes a lot of my time (the reason why I'm studying from
 distance). I'm originally from Skellefteå, which of course means I follow the local hockey team Skellefteå AIK.
@@ -17,4 +19,8 @@ When it comes to education I'm a fully certified network technician (Cisco). I'v
 before I decided to go back to school and learn more about coding (I've always wanted to learn programming).
 
 So currently I'm reading the program "Utveckling och Drift av Mjukvarusystem". The goal with the program is to be able
-to work as a programmer (no specific type).
+to work as a programmer and also use the knowledge to help me with some of my own projects.
+
+One of those projects are live streaming. I'm really interested in live streaming (focused on gaming) and would like
+to develop my own website to help promote my future live stream and youtube content. I haven't really started working 
+on this project yet, the reason being not enough time.

@@ -103,7 +103,7 @@ a {
  */
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $body-color;
+    border-left: 4px solid $background-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -123,7 +123,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: $body-color;
+    background-color: $background-color;
     box-shadow: inset 0 0 15px rgba(0,0,0,0.25);
     border-bottom: 1px solid grey;
 }
@@ -200,4 +200,13 @@ pre {
 .padding-top-bot-20 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.padding-bot-40 {
+    padding-bottom: 40px;
+}
+
+.padding-left-right-20 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
