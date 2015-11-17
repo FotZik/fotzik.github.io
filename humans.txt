@@ -15,5 +15,5 @@ URL: http://www.udm-devops.se, http://www.webbprogrammerare.se
 /* SITE */
 Last update: 2015/11/17
 Standards: HTML5, CSS3, JavaScript ES5
-Components: HTML5, CCS3, JavaScript, Jekyll, Disquis, Open Graph, Robots
+Components: HTML5, CCS3, JavaScript, Jekyll, SASS, Disquis, Open Graph, Robots.txt, Humans.txt
 Software: WebStorm, Vagrant, VirtualBox, Git

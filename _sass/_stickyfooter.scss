@@ -5,11 +5,11 @@ html, body {
     height: 100%;
 }
 .wrapper {
-    min-height: calc(100% - 235px);
-    margin: 0 auto -90px; /* the bottom margin is the negative value of the footer's height */
+    min-height: calc(100% - 255px);
+    margin: 0 auto -110px; /* the bottom margin is the negative value of the footer's height */
 }
 footer, .push {
-    height: 90px; /* '.push' must be the same height as 'footer' */
+    height: 110px; /* '.push' must be the same height as 'footer' */
 }
 
 footer {
