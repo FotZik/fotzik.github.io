@@ -1,0 +1,19 @@
+/* TEAM */
+Your title: Fredrik Jonsson
+Site: http://fotzik.github.io
+Twitter: ZikTweeting
+Location: Piteå, Sweden.
+
+
+/* THANKS */
+Name: Johan Leitet
+Name: Mats Lock
+Name: Jacbob Lindehoff
+Name: John Häggerud
+URL: http://www.udm-devops.se, http://www.webbprogrammerare.se
+
+/* SITE */
+Last update: 2015/11/17
+Standards: HTML5, CSS3, JavaScript ES5
+Components: HTML5, CCS3, JavaScript, Jekyll, Disquis, Open Graph, Robots
+Software: WebStorm, Vagrant, VirtualBox, Git
