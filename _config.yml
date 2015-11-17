@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is Fredrik's presentation site for the course 1dv022 on LNU. Here you'll find more information about myself and
   blog posts concerning the 1dv022 course. I also have a live stream for when I game on Twitch.tv.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "http://fotzik.github.io/" # the base hostname & protocol for your site
 twitter_username: ZikTweeting
 github_username:  fotzik
 
